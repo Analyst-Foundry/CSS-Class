@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color: orange;
+    text-align: center;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: dotted underline white;
+    text-shadow: 2px 4px 10px gray;
+}
+
+h2{
+    color: white;
+    font-style: italic;
+    background-color: brown;
+}
+
+.class1{
+    font-style: italic;
+    background-color: peachpuff;
+}
+
+#id1{
+    background-color: palevioletred;
+}
+
+pre{
+    border: 2px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+}
+
+.bunny {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+/* Head */
+.head {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    top: 50px;
+    left: 25px;
+}
+
+/* Ears */
+.ear {
+    position: absolute;
+    width: 50px;
+    height: 120px;
+    background: #f0f0f0;
+    border-radius: 25px;
+}
+
+.ear.left {
+    left: 35px;
+    transform: rotate(-30deg);
+}
+
+.ear.right {
+    right: 35px;
+    transform: rotate(30deg);
+}
+
+.inner-ear {
+    position: absolute;
+    width: 30px;
+    height: 80px;
+    background: #ffb6c1;
+    border-radius: 15px;
+    left: 10px;
+    top: 20px;
+}
+
+/* Eyes */
+.eye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    top: 90px;
+}
+
+.eye.left {
+    left: 50px;
+}
+
+.eye.right {
+    right: 50px;
+}
+
+.pupil {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    top: 7px;
+    left: 7px;
+}
+
+/* Nose */
+.nose {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background: pink;
+    border-radius: 40%;
+    top: 130px;
+    left: 87px;
+}
+
+/* Whiskers */
+.whisker {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: black;
+    top: 140px;
+}
+
+.whisker.left {
+    left: 30px;
+    transform: rotate(10deg);
+}
+
+.whisker.right {
+    right: 30px;
+    transform: rotate(-10deg);
+}
+
+/* Body */
+.body {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    top: 160px;
+    left: 10px;
+}
+
+
